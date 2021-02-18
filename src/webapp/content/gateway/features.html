@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en" style="direction: rtl;">
+<head>
+  <title>Features</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/library/js/headscripts.js"></script>
+    <link rel="stylesheet" href="/library/webjars/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<script>
+    includeLatestJQuery('features.html');
+</script>
+
+<style type="text/css">
+.container{
+	width: 100%;
+}
+.row-eq-height {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display:         flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-align-content: flex-end;
+	align-content: flex-end;
+}
+
+.panel-primary {
+	border : none;
+	border-radius: 24px;
+	height:100%;
+	background-color: #ecf0f3;
+	position: relative;
+}
+.panel-primary > .panel-heading {
+	color : #1e385b;
+	/* border-top-left-radius: calc(1rem - 1px);
+	border-top-right-radius: calc(1rem - 1px); */
+	font-family: "Vazir";
+	font-size: 20pt;
+	text-align: right;
+	background : #ecf0f3;
+	border : none;
+	margin-top: 10px;
+	margin-right: 15px;
+}
+
+.panel-body {
+	font-family: "Vazir";
+	font-size:14pt;
+	padding-bottom:0;
+	text-align: justify;
+	/* height:100%; */
+	margin-right: 15px;
+	margin-left: 15px;
+	line-height: 2.1em;
+	margin-bottom: 95px;
+}
+
+.panel-heading{
+	font-family: "Kalameh";
+}
+
+.panel-box {
+	margin-bottom: 2rem;
+}
+
+.btn-box {
+	padding: 1rem 1rem 0;
+	position: absolute;
+	left: 20px;
+	bottom : 40px;
+	font-family: "Kalameh", "A Ghasem", "Vazir", "Arial";
+}
+
+.btn-primary{
+	background-color: #1d375c;
+	width:100%;
+	font-size:18pt;
+	border-radius: 20px;
+}
+
+.jtop{
+    padding: 1rem 3rem;
+    background-color: #e9ecef;
+    border-radius: 7px;
+    margin: 15px 15px 70px 15px;
+}
+
+.jtop > h1 {
+    font-size:36px;
+}
+
+.jtop > p {
+	font-family: "Vazir";
+    font-size:20px;
+    line-height: 3.4em;
+    font-weight: 380;
+}
+
+strong{
+	font-family: "Vazir";
+}
+
+.row{
+	display : flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.header-image{
+	position: relative;
+	width: 100%;
+}
+.btm{
+	background-color: #6f8197;
+	height: 60px;
+	position:absolute;
+	width: 100%;
+	overflow: hidden;
+	bottom: 0;
+	border-bottom-left-radius: 24px;
+	border-bottom-right-radius: 24px;
+}
+
+</style>
+
+<body>
+<div class="jumbotron jtop">
+	<h1>قابلیت ها</h1>
+	<p>	وسیع بودن قابلیت های ساکای به معنی فراهم کردن تمامی ابزار هاییست که شما نیاز دارید.
+		با ویژگی هایی نوآورانه، ساکای شامل تمامی ابزار های استاندارد یادگیری آنلاین، تدریس،
+		و ابزار های کار تیمی که امروزه در پلتفرم های یادگیری استفاده میشوند می باشد. علاوه بر آن، ساکای
+		تعداد زیادی ابزار های ساخته شده توسط کمک کنندگان آن را دارا می باشد که به عنوان پلاگین های اضافه شونده در دسترس می باشند.
+		متن باز بودن ساکای اجازه میدهد که شما سیستم را هر چقدر که نیاز باشد تغییر دهید.</p>
+</div>
+
+<div class="container">
+	<div class="row row-eq-height">
+	
+		<div class="panel-box col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<div class="panel panel-primary">
+				<img src="/library/content/gateway/images/image4.png" class="header-image"/>
+				<div class="panel-heading">ارتباطات و همکاری</div>
+				
+				<div class="panel-body">
+					گزینه های مطمئن ارتباطی و ابزار های ارتباط تیمی
+					باعث میشود که در ارتباط بودن و کار با یکدیگر آسانتر شود.
+					شما میتوانید از ابزار های متنوع پیام رسانی همگام و ناهمگام برای بحث،
+					ارتباطات اجتماعی و کار های تیمی استفاده نمایید،
+				</div>
+				<span class="btm"></span>
+				<div class="btn-box">
+					<button class="btn btn-primary" data-toggle="modal" data-target="#CaCmodal">مشاهده بیشتر</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="panel-box col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<div class="panel panel-primary">
+				<img src="/library/content/gateway/images/image2.png" class="header-image"/>
+
+				<div class="panel-heading">ارزشیابی و نمره دهی</div>
+				
+				<div class="panel-body">
+					قابلیت های نمره دهی و ارزشیابی مدرن ساکای را یک انتخاب عالی
+					برای جمع آوری اطلاعات ارسالی و فراهم کردن بازخوردی قوی بر عملکرد آن ها می سازد.
+					ارزشیابی شما چه آزمونی سرنوشت ساز باشد، چه یک امتحان آنلاین باشد و چه نیازمند یک سیستم نمره دهی سریع
+					و آسان باشید، ساکای تمامی نیاز های شما را پوشش میدهد.
+				</div>
+				<span class="btm"></span>
+				<div class="btn-box">
+					<button class="btn btn-primary" data-toggle="modal" data-target="#GaAmodal">مشاهده بیشتر</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="panel-box col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<div class="panel panel-primary">
+				<img src="/library/content/gateway/images/image7.png" class="header-image"/>
+
+				<div class="panel-heading">تولید محتوا و اطلاع رسانی</div>
+				
+				<div class="panel-body">
+					ساختن یک دوره آموزشی هیچگاه آسان تر از این نبوده!
+					ساکای به شما این اجازه را میدهد که متن ها، منابع، کوییز ها، آزمون ها، تکالیف، لینک ها، ویدیو و سایر رسانه ها را
+					به دروس و سرفصل هایتان اضافه کرده و دسته بندی کنید.
+					شما میتوانید برای محتوای خود محدودیت دسترسی به کاربرانی خاص تعریف کرده و همچنین فایل
+					های مورد نیاز خود را آپلود، نگه داری و به اشتراک بگذارید.
+				</div>
+				<span class="btm"></span>
+				<div class="btn-box">
+					<button class="btn btn-primary" data-toggle="modal" data-target="#CDaDmodal">مشاهده بیشتر</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row row-eq-height">	
+		<div class="panel-box col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<div class="panel panel-primary">
+				<img src="/library/content/gateway/images/image9.png" class="header-image"/>
+				<div class="panel-heading">مدیریت دوره و سیستم</div>
+				
+				<div class="panel-body">
+					قابلیت های قدرتمند مدیریت دوره و سیستم ابزار هایی را به شما میدهد تا بتوانید
+					بصورت کارآمد دروس و کاربران را مدیریت کنید.
+					سیستم بسیار کارآمد نقش ها و دسترسی ها اجازه میدهد تا شما کاملا سیستم را با توجه به روند کاری خود شخصی سازی کنید.
+				</div>
+				<span class="btm"></span>
+				<div class="btn-box">
+					<button class="btn btn-primary" data-toggle="modal" data-target="#CaSMmodal">مشاهده بیشتر</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="panel-box col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<div class="panel panel-primary">
+				<img src="/library/content/gateway/images/image8.png" class="header-image"/>
+
+				<div class="panel-heading">ابزار های توسعه یافته توسط دیگران</div>
+				
+				<div class="panel-body">
+					از متن باز بودن ساکای سود ببرید،
+					ابزار های مخصوص ساکای که توسط اعضای جامعه ساکای توسعه یافته اند سپس جهت استفاده خارج از پکیج خود ساکای توزیع شده اند
+					میتوانید استفاده نمایید.
+					شما حتی میتوانید ابزار مورد نظر خود را نیز بسازید،
+				</div>
+				<span class="btm"></span>
+				<div class="btn-box">
+					<button class="btn btn-primary" data-toggle="modal" data-target="#CCTmodal">مشاهده بیشتر</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="panel-box col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<div class="panel panel-primary">
+				<img src="/library/content/gateway/images/image1.png" class="header-image"/>
+				<div class="panel-heading">سازگاری با برنامه های خارجی</div>
+				
+				<div class="panel-body">
+					ساکای پرچمداری در توسعه و پیاده سازی تخصص IMS LTI میباشد. علاوه بر آن، ساکای دارای یک API گسترده است که سازگاری با برنامه های طرف ثالت (third party) را امکان پذیر می‌سازد.
+				</div>
+				<span class="btm"></span>
+				<div class="btn-box">
+					<button class="btn btn-primary" data-toggle="modal" data-target="#EAImodal">مشاهده بیشتر</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--Modal for Communication and Collaboration-->		
+<div id="CaCmodal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">ارتباطات و همکاری</h4>
+			</div>
+			<div class="modal-body">
+				<p>
+					<strong>اطلاعیه ها</strong> - اطلاعات حال و زمان های مهم را برای سایت خود ذخیره کنید، و اعلامیه هایی که در زمان مشخص و در طول ترم نمایش داده خواهند شد را زمان بندی ریزی کنید.<br><br>
+					<strong>تقویم</strong> - دِدلاین ها ، فعالیت ها و رویداد های مربوط به یک دوره یا پروژه ذخیره و زمان بندی کنید.<br><br>
+					<strong>چت</strong> - در مکالمات در لحظه، مبتنی بر متن با اعضای دوره یا پروژه شرکت کنید.<br><br>
+					<strong>ابزار شبکه اجتماعی</strong> - با اعضای سایت در ابزار مبتنی بر شبکه اجتماعی و فیس بوک در ارتباط باشید <br><br>
+					<strong>تماس با ما</strong> - به آسانی و سریع سوالات و نظرات خود را با یک کلیک ارسال کنید. ابزار "تماس با ما" میتواند به مرکز پشتیبانی با تمام اطلاعات مربوطه ایمیل بفرستد.<br><br>
+					<strong>ایمیل</strong> - به اعضای سایت خود با استفاده از ایمیل رسمی موسسه، ایمیل ارسال کنید.<br><br>
+					<strong>آرشیو ایمیل</strong> - یک لیست ایمیل برای دوره خود با قابلیت دسترسی و جست و جوی یک ایمیل ارسال شده به این آدرس ایجاد کنید.<br><br>
+					<strong>انجمن ها</strong> - ایجاد و مدیریت موضوعات بحث شده درون یک دوره و ارسال پیام های خصوصی به اعضا، با قابلیت امتیاز دادن به بحث ها و تعیین سطح دسترسی کاربران.<br><br>
+					<strong>پیام ها</strong> - ارسال، دریافت و پاسخ به پیام ها میان اعضای سایت با استفاده از سیستم پیام رسانی داخلی ساکای.<br><br>
+					<strong>ثبت نام</strong> - ایجاد و مدیریت صفحات ثبت نام برای رویداد ها و فعالیت ها.<br><br>
+					<strong>ویکی</strong> - ایجاد، اشتراک و ویرایش مشترک محتوای وب.</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">خروج</button>
+			</div>
+		</div>
+	</div>
+</div>>
+
+<!--Modal for Grading and Assessment-->
+<div id="GaAmodal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">ارزیابی و نمره دهی</h4>
+			</div>
+			<div class="modal-body">
+				<p>
+					<strong>تکالیف</strong> - تکالیف افلاین یا آنلاین با تنوعی از گزینه ها و تنظیمات ایجاد و نمره دهی کنید<br><br>
+					<strong>دفتر نمره</strong> - نمرات دانش آموزان را محاسبه و ذخیره کنید. دفتر نمره از ظاهری شطرنجی استفاده کرده و برای نمره دهی اسان و سریع طراحی شده است.<br><br>
+					<strong>​Post’Em</strong> - ارسال، ذخیره و توزیع نمره های دانش آموز ها یا بازخورد غیر عددی و پیام  به آنها.<br><br>
+					<strong>​آزمون و کوییز ها</strong> - ایجاد و مدیریت ارزیابی و آزمون آنلاین با استفاده از موتور آزمون مدرن، شامل تنوعی از نوع سوالات، گزینه های امنیتی برای مدت زمان امتحان و شروع و پایان آن.
+				</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">خروج</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Modal for Content Development and Delivery-->
+<div id="CDaDmodal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">تحویل و توسعه محتوا</h4>
+			</div>
+			<div class="modal-body">
+				<p>
+					<strong>دراپ باکس</strong> - فایل های خصوصی را با اعضای دوره یا اعضای سایت به اشتراک بگزارید.​<br><br>
+					<strong>ابزار های خارجی</strong> - اجرای ابزار های خارجی با استفاده از IMS​<br><br>
+					<strong>دروس</strong> - ایجاد و مدیریت متون، منابع، آزمون ها، تکالیف، لینک ها، ویدیو ها و فایل های دیگر در دروس و واحد ها.<br><br>
+					<strong>اخبار</strong> - نمایش اخبار مختلف با محتوای پویا با استفاده از ار اس اس.<br><br>
+					<strong>بررسی اجمالی</strong> - توضیحات سایت و اطلاعیه های اخیر، پیام ها، پست های مورد بحث، و رویداد های تقویم در صفحه بررسی اجمالی.<br><br>
+					<strong>پادکست ها</strong> - پادکست های جداگانه و پادکست های بازخورد به اطلاعات برای سایت خود را مدیریت کنید.<br><br>
+					<strong>منابع</strong> - منابع مورد نیاز برای درس یا دوره را ارسال، ذخیره و مدیریت کنید​<br><br>
+					<strong>جست و جو</strong> - محتوای خاصی را در سایت با استفاده از سیستم جست و جوی داخلی قدرتمند، جست و جو کنید.​<br><br>
+					<strong>سرفصل ها</strong> - یک توضیح مختصری از دوره یا ترم آموزشی به اشتراک بگزارید<br><br>
+					<strong>محتوا وب</strong> - نمایش صفحات وب به عنوان قسمتی از منو سایت.</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">خروج</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--Modal for Course and System Management-->
+<div id="CaSMmodal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">مدیریت دوره و سیستم</h4>
+			</div>
+			<div class="modal-body">
+				<p>
+					<strong>نظرسنجی ها</strong> - به راحتی یک نظرسنجی ایجاد کنید و نظرات اعضای سایت را جمع اوری کنید.<br><br>
+					<strong>فهرست</strong> - لیستی از اعضای دوره یا ترم همراه با عکس و پروفایل آنها مشاهده کنید.<br><br>
+					<strong>قسمت اطلاعات</strong> - قسمت های مختلف را مدیریت کنید و تکلیف آموزشی به گروه خاصی از افراد در ترم و دوره بدهید.<br><br>
+					<strong>اطلاعات سایت</strong> - اطلاعات سایت را که شامل تنظیمات، ابزار، گروه ها، اضافه کردن محتوا و ... میباشد را مشاهده و آپدیت کنید.<br><br>
+					<strong>آمار ها</strong> - گزارش ها را برای نمایش آمار سایت استفاده کنید.<br><br>
+				</p>
+					<h4>ابزار های کاربران</h4><br>
+				<p>
+					<strong>حساب کاربری</strong> - نمایش و بروز رسانی اطلاعات کاربری.<br><br>
+					<strong>کمک گرفتن</strong> - به مطالب کمکی برای استفاده از سایت دسترسی داشته باشد.<br><br>
+					<strong>عضویت</strong> - مشاهده و جست و جو دوره های فعال و شرکت کرده در یک سایت قابل عضو شدن.<br><br>
+					<strong>حساب کاربری جدید</strong> - ایجاد یک حساب کاربری جدید.<br><br>
+					<strong>تنظیمات</strong> - تنظیمات دلخواه خود را برای نوتیفکیشن، منطقه زمانی، زبان، سایت های فعال و حالت ادیتور را تنظیم کنید<br><br>
+					<strong>پروفایل</strong> - یک پروفایل شخصی برای خود ایجاد کرده و با دیگر کاربران سیستم ارتباط برقرار کنید.<br><br>
+					<strong>بازیابی کلمه عبور</strong> - کلمه عبور حساب کاربری خود را بازیابی کنید.<br><br>
+					<strong>تنطیم محل کار</strong> - اطلاعات درباره سایت خود را مشاهده کنید، ویا سایت های جدیدی ایجاد کرده یا تنظیمات آنها را تغیر دهید.<br><br>
+				</p>
+					<h4>ابزار های مدیر سیستم</h4><br>
+				<p>
+					<strong>سایت تنظیم دسترسی ها</strong> - سریع و اسان دسترسی ها را برای یک نقش خاص ایجاد یا حذف کنید.<br><br>
+					<strong>نام مستعار</strong> - نمایش، ایجاد و ویرایش نام مستعار برای قسمت های مختلف اعم از لیست آدرس ایمیل سایت ها.<br><br>
+					<strong>کاربر شوید</strong> - به عنوان کاربر دیگری وارد حساب آنها شوید و مشکلات آنهارا بر طرف کنید بدون دانستن کلمه عبور آنها<br><br>
+					<strong>دسترسی نماینده</strong> - قابلیت های مدیر را برای کاربران خاصی توسط دپارتمان و واحد های سازمانی توزیع کنید. <br><br>
+					<strong>قالب های ایمیل</strong> - نوتیفیکیشن های شخصی سازی شده برای کاربران خود جهت جایگزینی پیام های پیشفرض سیستم ایجاد کنید.<br><br>
+					<strong>حافظه</strong> - مشاهده میزان کش سیستم جهت بهبود عملکرد سیستم.<br><br>
+					<strong>مدیریت بسته پیام</strong> -  ردیابی و ویرایش خواص سیستم پیام، که تعریف میکند متن رابط کاربری برا ابزار ساکای در تمامی زبان های  پشتیبانی شده.<br><br>
+					<strong>اطلاع رسانی</strong> - اطلاعیه در طول سیستم با استفاده از ابزار "پیام روز" ارسال کنید <br><br>
+					<strong>آنلاین</strong> - مشاهده اطلاعات در سور در حال حاظر فعال و آی پی کاربران و اطلاعات مرورگر آنها.<br><br>
+					<strong>آرشیو سایت</strong> - پشتیبانی گرفتن از سایت ها یا استفاده از بکاپ های گرفته شده<br><br>
+					<strong>سایت ها</strong> - ایجاد، ویرایش، حذف و جست و جو برای دوره و سایت های کاربران.<br><br>
+					<strong>مدیریت آمار سایت</strong> - گزارش های سرور و ذخیره گزارش هایی که برای اساتید فعال هستند را نشان میدهد<br><br>
+					<strong>برچسب سرویس ها</strong> - ایجاد و نگه داری مجوعه ای از برچسب ها به صورت دستی یا وارد کردن به صورت یک جا. تگ ها در بانک سوالات و در جست و جو به کار میروند.<br><br>
+					<strong>عضویت کاربران</strong> - ردیابی، مشاهده و ویرایش اطلاعات اعضای سایت.<br><br>
+					<strong>کاربران</strong> - ایجاد، جست و جو، مشاهده و بروزرسانی اطلاعات کاربران.
+				</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">خروج</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--Modal for Community Contributed Tools-->
+<div id="CCTmodal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">ابزار های همکاری انجمن ها</h4>
+			</div>
+			<div class="modal-body">
+				<p>
+					<strong>حضور و غیاب</strong> - حضور آنلاین داشته باشید و به حضور و غیاب ها نمره دهید.<br><br>
+					<strong>مدرک</strong> - به اعضای سایت مدرک قابل چاپ بر اساس موفقیت آنها اختصاص دهید.<br><br>
+					<strong>سیستم ارزیابی</strong> - ایجاد و تحویل ارزیابی های بازرسی های دوره های ساکای.<br><br>
+					<strong>Mneme</strong> - ایجاد و تحویل آزمون و کوییز در ساکای (جایگزینی برای ابزار پیشفرض آزمون)
+				</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">خروج</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--Modal for External App Integrations-->
+<div id="EAImodal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">یک پارچه سازی برنامه های خارجی</h4>
+			</div>
+			<div class="modal-body">
+				<div class="container" style="width:100%;">
+					<h4>یکپارچه سازی LTI</h4>
+					<ul class="list-group row" style="width:100%;">
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">Barnes & Noble</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">BigBlueButton</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">Box</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">Cengage</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">Digication</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">DynamicBooks</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">Examity</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">eXplorance Blue</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">iClicker</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">iRubric</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">Juta books</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">Kaltura</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">Karuta</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">Mahara</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">McGraw-Hill</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">Mediasite</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">Office 365</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">Opencast</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">Panopto</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">Perusall</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">Piazza</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">PlaceU</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">RedShelf</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">REEF Polling</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">Respondus Lockdown Browser</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">SCORMCloud</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">Tsugi App Store</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">TurningTechnologies</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">Turnitin</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">Vericite</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">VoiceThread</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">Warpwire</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">WebAssign</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">WordPress</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">WWNorton</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">Zoom</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">Zybooks</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">More...</li>
+					</ul>
+					<h4>یکپارچه سازی با API</h4>
+					<ul class="list-group row" style="width:100%;">	
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">Big Blue Button</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">Turnitin</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">Urkund</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">VeriCite</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">Wild Apricot</li>
+						<li class="list-group-item col-lg-4 col-md-6 col-xs-12">More...
+					</ul>
+					
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">خروج</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+</body>
+</html>

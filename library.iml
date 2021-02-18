@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.sakaiproject.kernel:sakai-kernel-util:20-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: commons-net:commons-net:3.6" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.sakaiproject.kernel:sakai-kernel-api:20-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.sakaiproject.kernel:sakai-component-manager:20-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.sakaiproject:sakai-fck-connector:war:2.8.3" level="project" />
+    <orderEntry type="library" name="Maven: org.tuckey:urlrewritefilter:4.0.3" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars:jstree:3.3.8" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars.npm:codemirror:5.50.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars:ckeditor:4.13.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars:ckeditor-autosave:0.18.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars:ckeditor-wordcount:1.17.6" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars:ckeditor-image2:4.14.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars.bower:github-com-bahriddin-ckeditor-html5-video:1.2.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars:dropzone:5.5.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars:qtip2:3.0.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars:handlebars:4.0.6" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars:momentjs:2.24.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars:jquery:1.12.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars:jquery-migrate:1.4.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars:jquery-ui:1.12.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars:jquery-ui-themes:1.12.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars:jquery-ui-touch-punch:0.2.3-2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars:bootstrap:3.3.7" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars:jquery-blockui:2.65" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars.bower:jquery-i18n-properties:1.2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:jquery:3.5.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars:jqplot:1.0.9.d96a669-1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars:explorercanvas:r3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars.npm:pnotify:4.0.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars.bower:elfinder:2.1.50" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars.bower:fontawesome:4.7.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars.bower:cropper:4.0.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars.bower:cropperjs:1.5.6" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars:select2:4.0.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars:fullcalendar:4.3.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars:datatables:1.10.20" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars:bootstrap-multiselect:0.9.15" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:jquery.tablesorter:2.27.7" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars.bowergithub.noelboss:featherlight:1.7.13" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:awesomplete:1.1.5" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:recordrtc:5.5.8" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:webrtc-adapter:7.4.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:rtcpeerconnection-shim:1.2.15" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:sdp:2.12.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:mathjs:6.5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:decimal.js:10.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:fraction.js:4.0.12" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:typed-function:1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:tiny-emitter:2.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:escape-latex:1.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:complex.js:2.0.11" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:seed-random:2.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:javascript-natural-sort:0.7.1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:multifile:2.2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars:pdf-js:2.3.200" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars:viewerjs:0.5.8" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:multiselect-two-sides:2.5.5" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:fontawesome-iconpicker:1.4.1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:flatpickr:4.6.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.slf4j:slf4j-log4j12:1.7.30" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.slf4j:jcl-over-slf4j:1.7.30" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.18.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.12" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+  </component>
+</module>

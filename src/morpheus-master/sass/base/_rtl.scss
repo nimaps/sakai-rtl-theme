@@ -1,0 +1,302 @@
+// Need to be done when morpheus skin will be done.
+
+html[dir="rtl"]{
+
+	overflow-x: hidden;
+
+	.#{$namespace}siteHierarchy{
+		.#{$namespace}hierarchy--separator{
+			transform: rotate(180deg);
+			position: relative;
+			top: 0;
+			left: -4px;
+		}
+		&:after{
+			content: " ";
+			clear: both;
+			display: block;
+		}
+		> * {
+			float: right;
+		}
+	}
+
+	.#{$namespace}toolTitleNav {
+		.#{$namespace}toolTitleNav__button_container {
+	    	float: left;
+		} 
+	}
+
+	.#{$namespace}footerApp__presence, .#{$namespace}footerApp__portalChat {
+	    left: 20px;
+	    right: auto;
+	}
+
+	.#{$namespace}portalChat {
+	    left: 21px;
+	    right: auto;
+	}
+
+	.#{$namespace}toolTitleNav .#{$namespace}toolTitleNav__title ~ .#{$namespace}toolTitleNav__button_container>.#{$namespace}directUrl__dropDown.active {
+	    margin: 10px 0 0 0px;
+	}
+
+	#toolMenu ul li.#{$namespace}collapseTools, #subSites ul li.#{$namespace}collapseTools {
+		@include transform( rotate(180deg) );
+		right : 0;
+	}
+
+	#selectSiteModal.dhtml_more_tabs{
+		margin: 0 0 0 -6.3em;
+		@media #{$phone}{
+			margin: 0 0 0 0;
+		}
+		&:after {
+		    left: 3%;
+			@media #{$phone}{
+				left: 26%;
+			}
+		}
+	}
+
+	ul#otherSitesMenu li.otherSitesMenuClose {
+	    display: inline-block;
+	    font-size: 1.5em;
+	    float: left;
+	}
+
+	#mastLogin #loginLinks ul{
+	    left: 0;
+	    right: auto;
+	    text-align: right;
+		@media #{$phone}{
+			left: 9.8em;
+			> * {
+				position: relative;
+			}
+		}
+	}
+	#linkNav ul li.#{$namespace}sitesNav__menuitem ul {
+	    left: auto;
+	    right: auto;
+	    text-align: right;
+		@media #{$phone}{
+			left: 9.8em;
+			> * {
+				position: relative;
+			}
+		}
+	}
+
+	#mastLogin #loginLinks ul:after {
+	    left: 8%;
+	}
+
+	@media #{$phone}{
+		body.toolsNav--displayed #toolMenuWrap>h1.skip:after {
+		    left: 75%;
+		}
+		.#{$namespace}userNav__popup.js-toggle-user-nav{
+			position: absolute;
+			left: 0.7em;
+			top: 0.3em;
+		}
+	}
+
+	.#{$namespace}sakai-profile2 {
+
+		@media (min-width: 992px){
+			.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+			    float: right;
+			}
+		}
+	}
+
+	#toolMenu {
+		ul{
+			li{
+				.Mrphs-toolsNav__menuitem--link{
+					text-align: right;
+					.Mrphs-toolsNav__menuitem--icon{
+						margin-right : 20px;
+						margin-left: 0px;
+					}
+					.#{$namespace}toolsNav__menuitem--title{
+						text-align: right;
+					}
+				}
+
+				.#{$namespace}collapseTools{
+					right : 0;
+				}
+			}
+		}
+	}
+
+	#toolMenuWrap{
+		margin-left : 10px;
+	}
+
+	#mastLogin{
+		#loginForm{
+			input[type="text"],input[type="password"],input[type="email"]{
+				text-align: right;
+			}
+		}
+	}
+
+	.Mrphs-mainHeader {
+		.Mrphs-headerLogo{
+			.Mrphs-siteviewbutton{
+				margin-left : auto;
+				margin-right : 0;
+			}
+		}
+	} 
+
+
+	body.#{$namespace}toolMenu-collapsed:not(.tool-maximised) {
+		#toolMenuWrap{
+			.#{$namespace}logotext{
+				margin-top : 40px;
+			}
+		}
+		#toolMenu, #subSites:not(.floating) {	// subsites menu, but not the floating one
+			ul{
+				li{
+					.Mrphs-toolsNav__menuitem--link{
+						&:hover, &:focus {
+
+							position: relative;
+							border-top-left-radius: 0px;
+							border-bottom-left-radius : 0px;
+							border-top-right-radius: 10px;
+							border-bottom-right-radius : 10px;
+
+							.#{$namespace}toolsNav__menuitem--title{
+								right: calc(#{$tool-menu-width-collapsed} - 1px);
+								width : max-content;
+
+								border-top-left-radius: 20px;
+								border-bottom-left-radius : 20px;
+								border-top-right-radius: 0px;
+								border-bottom-right-radius : 0px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.table {
+		> thead,
+		> tbody,
+		> tfoot {
+		  > tr {
+			> th,
+			> td {
+			  text-align : right;
+			}
+		  }
+		}
+	}
+
+	#jumptotop{
+		left : 40px;
+		right : auto;
+	}
+
+	.itemSummary th, .itemSummary td.header, .itemSummaryHeader, .itemSummaryLite td.header{
+		text-align: right;
+	}
+
+	table.itemSummary td, td.itemSummaryLite{
+		text-align: right;
+	}
+	
+	table.itemSummary caption, caption.itemSummaryLite {
+		text-align: right;
+	}
+
+	table.listHier th{
+		text-align: right;
+	}
+
+	.Mrphs-siteHierarchy {
+		.manage-overview-link{
+			left : 20px;
+			right : auto;
+		}
+	}
+
+	.pasystem-banner-alert 
+	{
+		&:before{
+			float : right;
+		}
+		.pasystem-banner-alert-close{
+			left : 10px;
+			right : auto;
+		}
+	}
+
+	.Mrphs-sakai-schedule{
+		.calendarDayView-event{
+			background-color : #d8d8d9;
+			text-align: right;
+		}
+		table.calendar{
+			.borderWhite{
+				font-size: 11px;
+			}
+		} 
+	} 
+
+	.sakai-table-toolBar{
+		.sakai-table-filterContainer{
+			margin : 0;
+		}
+	} 
+
+	select {
+		text-align : right;
+	}
+
+	#gradeTableWrapper{
+		direction : ltr;
+	}
+
+	.datepicker-container{
+		z-index : 150010;
+	}
+
+	.edit-col{
+		left : -8px;
+		right : auto;
+	}
+
+	.addbottom{
+		left : 0;
+		right : auto;
+	}
+
+	#gradeItemsTogglePanel{
+		right : -100000px;
+		left : auto;
+	}
+	.dropdown-menu-right{
+		left : 0;
+		right : auto;
+	}
+	.gb-student-filter-clear-button{
+		left : 8px;
+		right : auto;
+	}
+	.glyphicon{
+		rotate : 180deg;
+	}
+	.clear_input{
+		left : 5px;
+	}
+}
